@@ -16,9 +16,17 @@
     background: white;
 }
 
+#main-content{
+    position: relative;
+    z-index: 99;
+}
+
 #head-content{
+    
+    position:absolute;
     width: 100%;
     position: fixed;
+    z-index: 999;
 }
 
 #nav-menu-items{
@@ -74,6 +82,11 @@
     margin-top: 20%;
 }
 
+#poster{
+    margin-left: 100px;
+    height:450px;
+}
+
 #body-content-text{
     font-size: 15px;
     font-family: Lucida sans;
@@ -116,12 +129,18 @@
 
 #last-tag{
     font-size: 12px;
-    margin-top:100px ;
+    text-align: center;      
     color:white;
+    margin-top: 100px;
+}
+
+#lt{
+    margin-top:-20px;
+    margin-bottom: 50px;
 }
 
 #ender{
-    background: black;
+    background: url('../Assets/1.png');
 }
 
 #banner{
@@ -140,6 +159,11 @@
     border: 10px;
 }
 
+#move-left{
+   margin-bottom: -100px;
+    margin-left: 70%;
+    margin-right: 0px;
+}
 
 .content-category{
     margin-right: 350px;
