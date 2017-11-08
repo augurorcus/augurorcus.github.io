@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+#lastButton{
+    margin-left: 5%;
+}
+
+.ButtonMenu{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.firstHeader{
+    font-family:Verdana;
+    margin-left:30%;
+}
+
+.statusItem{
+    margin-left: 0%;
+}
+
+.dateSection{
+    margin-top: 20%;
+}
+
+.dateOne{
+    margin-top: 3%;
+}
+
+.dateSectionContent{
+    margin-top: 20px;
+}
+
+.thisBody{
+    background: black;
+}
+
+#enders{
+    background:url('../Assets/2.png');
+}

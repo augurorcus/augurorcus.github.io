@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/general-design.css">
+        <link rel="stylesheet" type="text/css" href="Design/external_registration.css">
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    </head>
+
+    <body class="thisBody">
+        <div id="head-content">
+            <nav id="gen-nav-bar" class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="inde">
+                    <img id="site-logo" src="Assets/Clogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                </a>
+                <font id="logo-text">Click Cafe</font>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul id="nav-menu-items" accesskey="" class="navbar-nav">
+                        <li class="nav-item active">
+                            <div id="adjust-left">
+                                <a class="nav-item active" href="index.html"><div class="custom-container">
+                                    <img class="nav-menu-button" src="Assets/Home.png" width="100" height="30" alt="home picture">
+                                    <div class="overlay">
+                                        <font class="overlay-text">Home</font>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <div id="adjust-left">
+                                <a  class="nav-item active" href="Services.html"><div class="custom-container">
+                                    <img class="nav-menu-button" src="Assets/Services.png" width="100" height="30" alt="services picture">
+                                    <div class="overlay">
+                                        <font class="overlay-text">Services</font>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item active">
+                            <div id="adjust-left">
+                                <a  class="nav-item active" href="about_us.html"><div class="custom-container">
+                                    <img class="nav-menu-button" src="Assets/About.png" width="100" height="30" alt="about picture">
+                                    <div class="overlay">
+                                        <font class="overlay-text">About</font>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item active">
+                            <div id="adjust-left">
+                                <a  class="nav-item active" href="contact_us.html"><div class="custom-container">
+                                    <img class="nav-menu-button" src="Assets/Contact.png" width="100" height="30" alt="contact picture">
+                                    <div class="overlay">
+                                        <font class="overlay-text">Contact</font>
+                                    </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div  class="wholeForms">
+            <h1 class="firstHeader">EMPLOYEE INFORMATION FORM</h1>
+            <form>
+
+                <hr class="firstSeparator">
+
+                <div><h3 class="br-success"> Contact Us</h3></div>
+                <div >
+                    <form class="input-group">
+                        <font>First Name </font>  <INPUT class="form-control" type="text" placeholder="Firstname" name="firstName"  onkeydown="return FilterInput(event)" value=" " required> 
+
+                        <font>Middle Name </font>  <INPUT class="form-control" type="text" placeholder="Middlename"  name="middleName"onkeydown="return FilterInput(event)" value=" "  required>
+
+                        <font>Last Name </font> <INPUT class="form-control" type="text"  placeholder="LastName"onkeydown="return FilterInput(event)"  name="lastName"    value=" " required>
+                        </form>
+                        </div>
+
+
+
+                        <div class="dateSection">
+                            <div class="dateSectionTitle"></div>
+                            <div class="dateSectionContent">
+                                <label for="meeting">BirthDate : </label><input type="date" name="birthDate" value="2011-01-13"/>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="addressSection">	
+                            Home Address (Permanent Address)   :  <INPUT class="form-control" type="TEXT"  name="homeAddress"  value=" " size="50">
+                            City  :
+                            <SELECT class="form-control" name="City" size=1>
+                                <option Selected> Manila City
+                                <option> Marikina City
+                                <option> Quezon City
+                                <option> Makati City
+                            </SELECT>
+                            </div>
+                            <br>
+
+                            <div class="form-group">
+                                Zip Code   :  <INPUT class="form-control"type="number"  name="zipCode"  min="1" max="5000"value=" " required> 
+                                Postal Code   :  <INPUT class="form-control" type="number" name="postalCode"  value=" "> 
+                                </div>
+                                <br>
+
+                                <div class="contactSection">
+                                    Email Address  :  <INPUT type="email"  name="personalEmail"  value=" ">
+                                    Mobile Number  :  <INPUT type="number"  name="personalNumber"  value=" ">
+
+                                    </div>
+
+                                    <hr class="secondSeparator">
+
+
+
+                                    <div class="ButtonMenu">
+                                        <INPUT TYPE="submit"  NAME="submitbutton" class="btn btn-primary" onclick="validateForm()" value="Submit"><INPUT id="lastButton" TYPE="reset"  NAME="resetbutton" class="btn btn-primary"  value="Clear data">  	
+
+                                            </div>
+                                            </form>
+                                    </div>
+                                    <div id="footer-content">
+                                        <div id="enders" >
+                                            <div>
+
+                                                <div id="middle-mode-item">
+                                                    <div id="last-tag">
+                                                        <a href="https://www.facebook.com">Facebook</a><font> | </font><a href="www.twitter.com">Twitter</a><font> | </font>
+                                                        <a href="www.youtube.com">Youtube</a>
+                                                        <p >©2017-2018 Philippine Web Developers. All rights reserved.</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </body>
+                                    </html>

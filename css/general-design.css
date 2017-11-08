@@ -142,6 +142,17 @@
 #ender{
     background: url('../Assets/1.png');
 }
+#enders{
+    background: url('../Assets/2.png');
+
+    
+}
+
+.thisBody{
+    background: #246068;
+    color:white;
+    
+}
 
 #banner{
     width:100%;
