@@ -41,7 +41,7 @@
 #banner-undertext{
     margin-top:1%;
     font-family: Courier new;
-    color:#c60c4c;
+    color:#AA4139;
     font-size: 20px;
     font-weight: 700;
     -webkit-text-stroke-width: 1px;
@@ -55,7 +55,7 @@
 #banner-text{
     font-family: arial;
     font-weight: 700;
-    color:#c60c4c;
+    color:#AA4139;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
@@ -63,6 +63,11 @@
 #title-remarks{
     margin-top: -20%;
     margin-bottom:70px;
+}
+
+#middle-content-upd{
+    text-align: center;
+    color:white;
 }
 
 #first-content{
@@ -77,6 +82,36 @@
 
 #Header{
     background: black;
+    height: 200px;
+}
+
+#carouselExampleControls{
+    margin-top: 30px;
+    width:520px;
+}
+
+#enclosed-news{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    border-radius: 25px;
+    width: 40px;
+    height: 340px;
+}
+
+#texts-center{
+    text-align:left;
+}
+
+#to-bot{
+        margin-top: 60px;
+}
+#news-pics{
+    margin-top: 50px;
+}
+
+#next-box{
+    margin-top: 20px;
 }
 
 #last-tag{
@@ -159,7 +194,7 @@
     height: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #c60c4c;
+    background-color: #AA4139;
 }
 
 .custom-container:hover .overlay {
